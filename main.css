@@ -1,0 +1,137 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.home {
+  text-shadow: 0.4px 0.8px blue;
+}
+
+.tab {
+  border-radius: 6px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+.fadein {
+  animation: fadein 3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+ul {
+  margin-left: -20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav {
+  border-radius: 0.5px;
+  border-bottom: 1px solid lightgrey;
+  border-width: thin;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 4px 0 rgba(0, 0, 0, 0.16);
+}
+
+nav ul {
+  margin-left: auto !important;
+}
+
+.radius {
+  border-radius: 4px;
+}
+
+.body {
+  min-height: calc(100vh - 48px);
+}
+
+.createdby {
+  margin: auto;
+  font-size: medium;
+}
+
+footer {
+  min-height: 48px;
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  align-items: stretch;
+  background-color: rgba(0, 16, 84, 0.72);
+  color: white;
+  box-shadow: 6px 9px 9px 6px rgba(14, 6, 6, 0.219),
+    8px 5px 7px 6px rgba(0, 0, 0, 0.322);
+}
+
+footer a {
+  color: whitesmoke !important;
+}
+
+.footer {
+  margin-left: auto;
+}
+
+.nounderline {
+  text-decoration: none !important;
+}
+
+.fab {
+  padding-top: 15px;
+  width: 60px;
+}
+
+i {
+  padding: 0 !important;
+}
+
+.card {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+.bgcolor {
+  background-color: rgba(70, 110, 199, 0.37);
+}
+
+p {
+  font-size: 1.14rem;
+}
+
+.title {
+  text-shadow: 0.2px 0.2px lightgrey;
+  font-size: 1.3rem;
+}
+
+.textshadow {
+  text-shadow: 0.5px 0.5px lightgrey;
+  font-size: 1rem;
+}
+
+.search {
+  background-color: rgb(213, 221, 231);
+}
+
+.wdt {
+  margin-top: 40px;
+  width: 15%;
+}
+
+.hgt {
+  height: 160px !important;
+}
+
+.deletetwitter {
+  display: flex;
+  margin-left: auto;
+  margin-top: -33px !important;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
